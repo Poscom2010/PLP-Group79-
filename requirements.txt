@@ -1,0 +1,10 @@
+# Python version requirement
+python>=3.6
+
+# Currently no external packages are required as the project only uses built-in modules:
+# - time (built-in)
+
+# Future additions might require:
+# - requests (for API integration)
+# - pandas (for data handling)
+# - matplotlib (for trend visualization) 
