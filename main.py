@@ -46,7 +46,6 @@ while True:
     else:
         coins = user_input.split()
 
-
 # Find Crypto in the data
     found = False
     for each_coin in coins:
@@ -67,4 +66,9 @@ while True:
                     print(f"As a friend, i would not recommend you to take a bite on the {bold_crypto_name}⛔!!⚡project buddie.Its either price is going down or the project is not strong")
 
     if not found:
-        print(f"ooops! buddie, {str.upper(each_coin)} not found, please try a different one")
+        print(f"ooops! buddie, {bold_crypto_name} not found, please try a different one")
+
+
+
+    if not found:
+        print("ooops! buddie, i searched and could not find that project, could you please try a different one")
