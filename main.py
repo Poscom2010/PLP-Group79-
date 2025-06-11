@@ -65,10 +65,5 @@ while True:
                 else:
                     print(f"As a friend, i would not recommend you to take a bite on the {bold_crypto_name}⛔!!⚡project buddie.Its either price is going down or the project is not strong")
 
-    if not found:
-        print(f"ooops! buddie, {bold_crypto_name} not found, please try a different one")
-
-
-
-    if not found:
-        print("ooops! buddie, i searched and could not find that project, could you please try a different one")
+        if found:
+            print(f"ooops! buddie, {f"\033[1m{each_coin.upper()}\033[0m"} not found, please try a different one")
